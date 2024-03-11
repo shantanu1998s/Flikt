@@ -10,6 +10,7 @@ const NavBar = () => {
   const handleSignOut=()=>{
     dispatch(toggleState())
   }
+  console.log("hello")
 
   return (
    
